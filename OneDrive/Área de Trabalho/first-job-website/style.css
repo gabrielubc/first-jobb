@@ -1,0 +1,79 @@
+/* Estilo para o fundo e fonte */
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #ADD8E6;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Estilo do contêiner principal */
+.container {
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Título principal em branco */
+h1 {
+  color: white;
+  background-color: #4F4F4F;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Estilo do formulário */
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels do formulário */
+label {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Campos de entrada do formulário */
+input {
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none;
+  background-color: #00008B;
+  color: #ffffff;
+}
+
+/* Seções de informações */
+.info-sections {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilo das caixas de informação */
+.info-box {
+  padding: 20px;
+  background-color: #ADD8E6;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #4F4F4F;
+}
+
+/* Estilo dos links nas caixas de informação */
+.info-box a {
+  color: #00008B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.info-box a:hover {
+  text-decoration: underline;
+}
